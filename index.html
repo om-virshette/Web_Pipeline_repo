@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
 </head>
 <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-    <a href="https://example.com">This is a link</a>
+    <div class="dashboard-container">
+        <nav class="sidebar">
+            <div class="sidebar-header"><h3>MyDash</h3></div>
+            <ul class="nav-links">
+                <li class="active"><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <header><h3>Dashboard</h3></header>
+            <section class="stats-grid">
+                <div class="stat-card"><h3>Users</h3><p>1,250</p></div>
+                <div class="stat-card"><h3>Revenue</h3><p>$12,500</p></div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
